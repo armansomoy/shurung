@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SHURUNG</title>
+    <title>Opamo</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" sizes="32x32">
     <!-- Core Bootstrap -->
@@ -47,8 +45,7 @@
                         <div class="top-header-inner">
                             <div class="widget widget_info">
                                 <span class="info-icon"><i class="icon-location"></i></span>
-                                <a class="info-text" href="https://goo.gl/maps/vg5FbwXwHqwifEK6A" target="_blank">4850
-                                    Trainer Avenue, Seattle</a>
+                                <span class="info-text">4850 Trainer Avenue, Seattle</span>
                             </div>
                             <div class="widget widget_info">
                                 <span class="info-icon"><i class="icon-phone"></i></span>
@@ -691,10 +688,20 @@
                                     About us
                                 </a>
                             </li>
-                            <li class="nav-item menu-item">
-                                <a class="nav-link menu-item_link" href="contact.html">
+                            <!-- simple dropdown -->
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
                                     Contact us
                                 </a>
+                                <div class="dropdown-menu dropdown-list dropdown-list--br">
+                                    <div class="dropdown_inner">
+                                        <ul class="list-no-style">
+                                            <li><a class="dropdown-item" href="contact-01.html">Contact Demo 01</a></li>
+                                            <li><a class="dropdown-item" href="contact-02.html">Contact Demo 02</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -705,650 +712,98 @@
         <!-- end main header section -->
     </div>
     <!-- end header section -->
+    <!-- page header image section -->
+    <div class="page-header-img">
+        <!-- style="background-image: url('assets/images/map-bg.jpg')" -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.854299131859!2d90.36850561498142!3d23.75257458458829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bff65241d09f%3A0x9ac2bd24c9f5766e!2sShurung!5e0!3m2!1sen!2sbd!4v1639320871839!5m2!1sen!2sbd"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-
-    <!-- hero header section -->
-    <div class="hero-header hero-header--carousel" id="heroHeaderCarousel">
-        <div class="hero-header-bg" style="background-image: url('assets/images/header-02.jpg')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="hero-header__wrapper">
-                            <div class="inner-content slider-animated">
-                                <div class="slider-title slider-title--style-1">
-                                    <h3 class="slider-subtitle animated">Spring 2020</h3>
-                                    <h1 class="slider-main-title animated">New collection</h1>
-                                </div>
-                                <div class="slider-text animated">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate esse
-                                        laudantium molestiae quas velit!</p>
-                                </div>
-                                <a href="#" class="button button--dark button-lg slider-btn animated">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-header-bg" style="background-image: url('assets/images/header-03.jpg')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="hero-header__wrapper">
-                            <div class="inner-content slider-animated">
-                                <div class="slider-title slider-title--light slider-title--style-2">
-                                    <h3 class="slider-subtitle animated">Summer Sale</h3>
-                                    <h1 class="slider-main-title animated">-70%</h1>
-                                </div>
-                                <div class="slider-text animated">
-                                    <p>Free shipping With Promo Code <strong>FREESH</strong></p>
-                                </div>
-                                <a href="#" class="button button--dark button-lg slider-btn animated">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-header-bg" style="background-image: url('assets/images/header-04.jpg')">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="hero-header__wrapper wrapper--right">
-                            <div class="inner-content slider-animated">
-                                <div class="slider-title slider-title--style-1">
-                                    <h1 class="slider-main-title animated">Cloth Hacks<br>For Women</h1>
-                                </div>
-                                <div class="slider-text animated">
-                                    <p>How to dress like every day is a Sunday trip to the market</p>
-                                </div>
-                                <a href="#" class="button button--dark button-lg slider-btn animated">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <!-- end page header image section -->
+    <!-- breadcrumb section -->
+    <div class="custom-breadcrumb custom-breadcrumb--minimal">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                </ol>
+            </nav>
         </div>
     </div>
-    <!-- end hero header section -->
-
-
+    <!-- end breadcrumb section -->
     <!-- main content section -->
-    <div class="main-content pt-30">
+    <div class="main-content">
+        <!-- contact us section -->
         <div class="container">
-            <!-- shop by category section -->
-            <div class="item-wrapper">
-                <!-- item wrapper images -->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="item-wrapper__img img-hover-1">
-                            <img src="assets/images/cat-img-01.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="item-wrapper__img img-hover-1">
-                            <img src="assets/images/cat-img-02.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- item wrapper content box -->
-                <div class="item-wrapper__content">
-                    <h4 class="item-title">Swimwear Collection</h4>
-                    <div class="item-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa esse itaque.</p>
-                    </div>
-                    <a href="#" class="button button--link">See all products</a>
-                </div>
-            </div>
-            <!-- end shop by category section -->
-
-
-            <!-- best seller products section -->
-            <div class="pt-150">
-                <!-- main title -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="heading">
-                            <h2 class="main-heading">Best seller</h2>
-                            <a href="#" class="heading-link">Show All</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end main title -->
-                <!-- product cards -->
-                <div class="row">
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product(13).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-badge">
-                                        -10%
-                                    </div>
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Shoes</div>
-                                <h3 class="product-name">
-                                    <a href="#">Cotton floral print Dress</a>
-                                </h3>
-                                <div class="product-price">
-                                    <del class="old">
-                                        <span class="amount">$95.00</span></del>
-                                    <ins class="current ">
-                                        <span class="amount">
-                                            $70.00</span></ins>
-
-                                </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-info-list list-divider">
+                                <ul class="list-no-style">
+                                    <li>
+                                        <span class="info-title">Work hours:</span>
+                                        <span class="info-content">M-F 7:00 am-20:00 pm</span>
+                                    </li>
+                                    <li>
+                                        <span class="info-title">Email:</span>
+                                        <span class="info-content">Info@opamo.com</span>
+                                    </li>
+                                    <li>
+                                        <span class="info-title">Address:</span>
+                                        <span class="info-content">4850 Trainer Avenue, Seattle, USA</span>
+                                    </li>
+                                    <li>
+                                        <span class="info-title">Phone:</span>
+                                        <span class="info-content">+1-800-123-456-78</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(5).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Blouses</div>
-                                <h3 class="product-name">
-                                    <a href="#">Long-sleeved Blouse</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$14.25</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(12).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Shoes</div>
-                                <h3 class="product-name">
-                                    <a href="#">Leather mid-heel Sandals</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$100.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(6).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Dresses</div>
-                                <h3 class="product-name">
-                                    <a href="#">Plumeti Chiffon Dress</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$34.25</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product(15).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Accessories</div>
-                                <h3 class="product-name">
-                                    <a href="#">Little leather bag</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$120.25</span>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <h5>We are here to Hear from you!</h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, sale nemore equidem duo ad, et qui rebum aeque. In quo
+                                possit
+                                omnium delectus, vis latine partiendo dignissim ne.
+                                Lorem ipsum dolor sit amet, sale nemore equidem duo ad, et qui rebum aeque. In quo
+                                possit
+                                omnium delectus, vis latine partiendo dignissim ne.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product(14).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6 col-md-12 form-group">
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                </div>
+                                <div class="col-12 form-group">
+                                    <textarea class="form-control" id="textarea" rows="7"
+                                        placeholder="Review"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="contact-form_btn">
+                                        <button type="submit" class="button button--dark button-md">
+                                            Send
+                                        </button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Fragrances</div>
-                                <h3 class="product-name">
-                                    <a href="#">Perfume</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$280.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(2).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Pants</div>
-                                <h3 class="product-name">
-                                    <a href="#">Black cotton skinny jean</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$25.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(3).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Shirt</div>
-                                <h3 class="product-name">
-                                    <a href="#">Denim shirt</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$25.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(8).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-badge">
-                                        New
-                                    </div>
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Accessories</div>
-                                <h3 class="product-name">
-                                    <a href="#">Sunglasses</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$10.25</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-sm-6">
-                        <div class="product-card product-card--block">
-                            <div class="product-card__img">
-                                <a href="#">
-                                    <img src="assets/images/product%20(1).jpg" alt="">
-                                </a>
-                                <div class="product-card__overlay">
-                                    <div class="product-actions">
-                                        <ul class="product-btn-list">
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-eye"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-basket"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="product-btn"><i class="icon-heart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-card__body">
-                                <div class="product-category">Shirt</div>
-                                <h3 class="product-name">
-                                    <a href="#">Cotton floral print Dress</a>
-                                </h3>
-                                <div class="product-price">
-                                    <span class="amount">$45.00</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end product cards -->
-            </div>
-            <!-- end best seller products section -->
-        </div>
-
-        <!-- shop by category section -->
-        <div class="item-wrapper">
-            <!-- item wrapper images -->
-            <div class="item-wrapper__row">
-                <div class="item-wrapper-col">
-                    <div class="item-wrapper__img img-hover-1">
-                        <a href="#"><img src="assets/images/cat-img-03.jpg" alt=""></a>
-                    </div>
-                    <a href="#" class="item-wrapper__caption">women</a>
-                </div>
-                <div class="item-wrapper-col">
-                    <div class="item-wrapper__img img-hover-1">
-                        <a href="#"><img src="assets/images/cat-img-04.jpg" alt=""></a>
-                    </div>
-                    <a href="#" class="item-wrapper__caption">men</a>
-                </div>
-                <div class="item-wrapper-col">
-                    <div class="item-wrapper__img img-hover-1">
-                        <a href="#"><img src="assets/images/cat-img-05.jpg" alt=""></a>
-                    </div>
-                    <a href="#" class="item-wrapper__caption">kids</a>
-                </div>
-            </div>
-            <!-- item wrapper content box -->
-        </div>
-
-
-
-
-        <!-- full width banner section -->
-        <div class="container-fluid">
-            <div class="banner full-width-banner pt-150">
-                <div class="row">
-                    <div class="col-lg-6 content-column">
-                        <h3 class="content-title">Explore</h3>
-                        <div class="content-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus
-                                ducimus
-                                ipsum magni pariatur perspiciatis praesentium quas quod repellendus.</p>
-                        </div>
-                        <div class="blockquote">
-                            <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores,
-                                maxime
-                                nemo
-                                possimus tempora voluptatibus."
-                            </blockquote>
-                        </div>
-                        <div class="content-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut corporis debitis
-                                dolore
-                                doloremque dolores earum eius error eum, inventore ipsum libero nam natus pariatur
-                                recusandae
-                                rerum
-                                sapiente sunt temporibus, velit voluptate. Ad assumenda beatae blanditiis error nam
-                                optio
-                                suscipit?</p>
-                        </div>
-                        <div class="content-btn">
-                            <a href="#" class="button button--dark button-md">Buy Now</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 image-column">
-                        <img src="assets/images/banner-01.jpg" alt="">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- end full width banner section -->
-
-
-        <!-- blog post section -->
-        <div class="pt-150">
-            <div class="container">
-                <!-- main title -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="heading">
-                            <h2 class="main-heading">Our latest news</h2>
-                        </div>
-                    </div>
-                </div>
-                <!-- end main title -->
-                <!-- blog posts -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-post-card img-hover-4">
-                            <div class="blog-post-image">
-                                <a href="#">
-                                    <img src="assets/images/blog-post-01.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-post-body">
-                                <div class="post-meta">
-                                    <div class="post-author">
-                                        <a href="#">By Admin</a>
-                                    </div>
-                                    <div class="post-date">
-                                        18 Nov, 2020
-                                    </div>
-                                </div>
-                                <a href="#">
-                                    <h3 class="post-title">Top 25 Pieces From The Spring Online stores sale</h3>
-                                </a>
-                                <div class="post-summery">
-                                    <p>Lorem ipsum dolor sit amet, sale nemore equidem duo ad, et qui rebum aeque. In
-                                        quo
-                                        possit omnium delectus, vis latine partiendo dignissim ne.
-                                    </p>
-                                </div>
-                                <div class="post-btn">
-                                    <a href="#" class="button button--link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-post-card img-hover-4">
-                            <div class="blog-post-image">
-                                <a href="#">
-                                    <img src="assets/images/blog-post-02.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-post-body">
-                                <div class="post-meta">
-                                    <div class="post-author">
-                                        <a href="#">By Admin</a>
-                                    </div>
-                                    <div class="post-date">
-                                        18 Nov, 2020
-                                    </div>
-                                </div>
-
-                                <a href="#">
-                                    <h3 class="post-title">The Most Flattering blouses under $100</h3>
-                                </a>
-                                <div class="post-summery">
-                                    <p>Lorem ipsum dolor sit amet, sale nemore equidem duo ad, et qui rebum aeque. In
-                                        quo
-                                        possit omnium delectus, vis latine partiendo dignissim ne.
-                                    </p>
-                                </div>
-                                <div class="post-btn">
-                                    <a href="#" class="button button--link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="blog-post-card img-hover-4">
-                            <div class="blog-post-image">
-                                <a href="#">
-                                    <img src="assets/images/blog-post-03.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-post-body">
-                                <div class="post-meta">
-                                    <div class="post-author">
-                                        <a href="#">By Admin</a>
-                                    </div>
-                                    <div class="post-date">
-                                        18 Nov, 2020
-                                    </div>
-                                </div>
-                                <a href="#">
-                                    <h3 class="post-title">5 Little Luxuries That Make a Big Difference</h3>
-                                </a>
-                                <div class="post-summery">
-                                    <p>Lorem ipsum dolor sit amet, sale nemore equidem duo ad, et qui rebum aeque. In
-                                        quo
-                                        possit omnium delectus, vis latine partiendo dignissim ne.
-                                    </p>
-                                </div>
-                                <div class="post-btn">
-                                    <a href="#" class="button button--link">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- blog posts -->
-            </div>
-        </div>
-        <!-- end blog post section -->
+        <!-- end contact us section -->
+        <!-- social media section -->
         <!-- social media section -->
         <div class="pt-150 social-media-sec">
             <div class="container">
@@ -1388,6 +843,7 @@
                 </div>
             </div>
         </div>
+        <!-- end social media section -->
         <!-- end social media section -->
     </div>
     <!-- end main content section -->
@@ -1584,5 +1040,6 @@
     <script src="assets/js/custom.js"></script>
 </body>
 
+<!-- Mirrored from demo.minimalthemes.net/opamo/contact-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Dec 2021 13:20:16 GMT -->
 
 </html>
