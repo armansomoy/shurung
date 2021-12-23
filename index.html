@@ -29,14 +29,6 @@
 </head>
 
 <body>
-    <!-- loader -->
-    <div class="loader-wrapper">
-        <div class="loader">
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- end loader -->
     <!-- header section -->
     <div class="header">
         <!-- top header section -->
@@ -250,18 +242,27 @@
                     <div class="collapse navbar-collapse" id="navbarContent">
                         <ul class="navbar-nav main-menu" id="mainMenu">
                             <!-- simple dropdown with footer -->
-                            <li class="nav-item menu-item dropdown active">
+                            <li class="nav-item menu-item active">
+                                <a class="nav-link menu-item_link" href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item menu-item">
+                                <a class="nav-link menu-item_link" href="shop.html">
+                                    New Arrivals
+                                </a>
+                            </li>
+                            <li class="nav-item menu-item dropdown ">
                                 <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    Home
+                                    Clothing
                                 </a>
                                 <div class="dropdown-menu dropdown-list dropdown-list--md">
                                     <div class="dropdown_inner">
                                         <ul class="list-no-style">
-                                            <li><a class="dropdown-item" href="index.html">Home Classic</a></li>
-                                            <li><a class="dropdown-item" href="index-01.html">Home Fashion</a></li>
-                                            <li><a class="dropdown-item" href="index-02.html">Home Boxed</a></li>
-                                            <li><a class="dropdown-item" href="index-03.html">Home Vertical</a></li>
+                                            <li><a class="dropdown-item" href="index.html">Woman</a></li>
+                                            <li><a class="dropdown-item" href="index-01.html">Man</a></li>
+                                            <li><a class="dropdown-item" href="index-02.html">Kids</a></li>
                                         </ul>
                                     </div>
                                     <div class="dropdown_footer">
@@ -279,404 +280,72 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- mega menu with banner -->
-                            <li class="nav-item menu-item mega-menu dropdown">
-                                <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Shop
-                                </a>
-                                <div class="dropdown-menu dropdown-list mega-menu_sub-menu w-100">
-                                    <div class="row no-gutters">
-                                        <div class="col-lg-7">
-                                            <div class="dropdown_inner">
-                                                <div class="mega-menu_list">
-                                                    <div class="row">
-                                                        <div class="col-lg-4 mega-menu_list-col">
-                                                            <h6 class="mega-menu_list-title">Shop Layouts</h6>
-                                                            <ul class="list-no-style">
-                                                                <li>
-                                                                    <a href="shop-sidebar.html"
-                                                                        class="dropdown-item">Sidebar Layout</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="shop-collapse.html"
-                                                                        class="dropdown-item">Collapse Layout</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="shop-full.html" class="dropdown-item">Full
-                                                                        Layout</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-4 mega-menu_list-col">
-                                                            <h6 class="mega-menu_list-title">Product Layouts</h6>
-                                                            <ul class="list-no-style">
-                                                                <li>
-                                                                    <a href="product-grid.html"
-                                                                        class="dropdown-item">Grid Layout</a></li>
-                                                                <li>
-                                                                    <a href="product-sticky.html"
-                                                                        class="dropdown-item">Sticky Layout</a></li>
-                                                                <li>
-                                                                    <a href="product-vertical.html"
-                                                                        class="dropdown-item">Vertical Slider
-                                                                        Layout</a></li>
-                                                                <li>
-                                                                    <a href="product-horizontal.html"
-                                                                        class="dropdown-item">Horizontal Slider
-                                                                        Layout</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-4">
-                                                            <h6 class="mega-menu_list-title">Shop pages</h6>
-                                                            <ul class="list-no-style">
-                                                                <li>
-                                                                    <a href="cart.html" class="dropdown-item">Cart</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="checkout.html"
-                                                                        class="dropdown-item">Checkout</a></li>
-                                                                <li>
-                                                                    <a href="wishlist.html"
-                                                                        class="dropdown-item">Wishlist</a></li>
-                                                                <li>
-                                                                    <a href="order-tracking.html"
-                                                                        class="dropdown-item">Order tracking</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="dropdown-divider"></div>
-                                                <div class="mega-menu_shop-category">
-                                                    <div class="categories-list">
-                                                        <div class="category_item">
-                                                            <span class="category-name">shoes</span>
-                                                            <span class="category-icon">
-                                                                <i class="icon-shoes"></i>
-                                                            </span>
-                                                        </div>
-                                                        <div class="category_item">
-                                                            <span class="category-name">Bags</span>
-                                                            <span class="category-icon">
-                                                                <i class="icon-purse"></i>
-                                                            </span>
-                                                        </div>
-                                                        <div class="category_item">
-                                                            <span class="category-name">Accessories</span>
-                                                            <span class="category-icon">
-                                                                <i class="icon-sunglasses"></i>
-                                                            </span>
-                                                        </div>
-                                                        <div class="category_item">
-                                                            <a href="#" class="category-btn">Shop All <span><i
-                                                                        class="icon-arrow-right"></i> </span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-5">
-                                            <div class="mega-menu_banner mega-menu_banner--bg mega-menu_banner--overlay"
-                                                style="background-image: url('assets/images/menu-thumb-01.jpg')">
-                                                <div class="banner-content">
-                                                    <h5 class="banner-title">New collection</h5>
-                                                    <a href="#" class="button button--link">Shop Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- mega menu with product cards -->
-                            <li class="nav-item menu-item mega-menu dropdown">
-                                <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Store
-                                </a>
-                                <div class="dropdown-menu dropdown-list mega-menu_sub-menu w-100">
-                                    <div class="dropdown_inner">
-                                        <div class="row">
-                                            <!-- mega menu list items -->
-                                            <div class="col-lg-8">
-                                                <div class="mega-menu_list">
-                                                    <div class="row">
-                                                        <div class="col-md-4 mega-menu_col">
-                                                            <ul class="mega-menu_list-collapse list-no-style">
-                                                                <li class="mega-menu_item-collapse dropdown">
-                                                                    <a class="dropdown-item dropdown-toggle"
-                                                                        data-toggle="dropdown" aria-haspopup="true"
-                                                                        aria-expanded="false" href="#" role="button">
-                                                                        <span>Fashion Trends</span>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu--nested">
-                                                                        <li><a class="dropdown-item"
-                                                                                href="#">Dresses</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Pants</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item"
-                                                                                href="#">Jackets</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item"
-                                                                                href="#">Accessories</a></li>
-                                                                        <li><a class="dropdown-item" href="#">Shoes</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Skirts</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item"
-                                                                                href="#">Blouses</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li class="mega-menu_item-collapse dropdown">
-                                                                    <a class="dropdown-item dropdown-toggle"
-                                                                        data-toggle="dropdown" aria-haspopup="true"
-                                                                        aria-expanded="false" href="#" role="button">
-                                                                        <span>New Collection</span>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu--nested">
-                                                                        <li><a class="dropdown-item" href="#">Women</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Men</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Kids</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item"
-                                                                                href="#">Spring/Summer
-                                                                                2020</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Instagram Shop</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">New Season
-                                                                        Outfits</a>
-                                                                </li>
-                                                                <li class="mega-menu_item-collapse">
-                                                                    <a class="dropdown-item dropdown-toggle"
-                                                                        data-toggle="dropdown" aria-haspopup="true"
-                                                                        aria-expanded="false" href="#" role="button">
-                                                                        <span>Summer Sets</span>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu dropdown-menu--nested">
-                                                                        <li><a class="dropdown-item" href="#">Women</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Men</a>
-                                                                        </li>
-                                                                        <li><a class="dropdown-item" href="#">Kids</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Back In Stock</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-md-4 mega-menu_col">
-                                                            <ul class="list-no-style">
-                                                                <li><a class="dropdown-item" href="#">Jeans</a></li>
-                                                                <li><a class="dropdown-item" href="#">Cardigans &
-                                                                        Sweaters</a></li>
-                                                                <li><a class="dropdown-item" href="#">Swimwear</a></li>
-                                                                <li><a class="dropdown-item" href="#">Jumpsuits &
-                                                                        Rompers</a></li>
-                                                                <li><a class="dropdown-item" href="#">Shirts &
-                                                                        Blouses</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Hoodies &
-                                                                        Sweatshirts</a></li>
-                                                                <li><a class="dropdown-item" href="#">Sleepwear &
-                                                                        Loungewear</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-md-4 mega-menu_col">
-                                                            <ul class="list-no-style">
-                                                                <li><a class="dropdown-item" href="#">Casual</a></li>
-                                                                <li><a class="dropdown-item" href="#">Basics<span
-                                                                            class="badge badge--danger">Hot</span></a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Business</a></li>
-                                                                <li><a class="dropdown-item" href="#">Party</a></li>
-                                                                <li><a class="dropdown-item" href="#">Denim<span
-                                                                            class="badge badge--primary">On
-                                                                            Sale</span></a></li>
-                                                                <li><a class="dropdown-item" href="#">Sports</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- mega menu banner -->
-                                            <div class="col-lg-4">
-                                                <div class="mega-menu_banner">
-                                                    <div class="img-hover-1">
-                                                        <a href="#"><img src="assets/images/banner-05.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="banner-content">
-                                                        <h5 class="banner-title">Men's Wear</h5>
-                                                        <a href="#" class="button button--link">Shop Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- mega menu with product cards -->
-                            <li class="nav-item menu-item mega-menu dropdown">
-                                <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu dropdown-list mega-menu_sub-menu w-100">
-                                    <div class="dropdown_inner">
-                                        <div class="row">
-                                            <!-- mega menu list items -->
-                                            <div class="col-lg-3">
-                                                <div class="mega-menu_list">
-                                                    <h6 class="mega-menu_list-title">Pages</h6>
-                                                    <ul class="list-no-style">
-                                                        <li><a class="dropdown-item" href="about.html">About us</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="contact-01.html">Contact
-                                                                Us Demo1</a></li>
-                                                        <li><a class="dropdown-item" href="contact-02.html">Contact
-                                                                Us Demo2</a></li>
-                                                        <li><a class="dropdown-item" href="pricing.html">Pricing</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="popup.html">Popup</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-                                                        <li><a class="dropdown-item" href="404.html">404</a></li>
-                                                        <li><a class="dropdown-item" href="coming-soon.html">Coming
-                                                                soon</a></li>
-                                                        <li><a class="dropdown-item" href="register.html">Sign
-                                                                up/Sign in</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!-- mega menu product cards -->
-                                            <div class="col-lg-9 mega-menu_banner">
-                                                <div class="row">
-                                                    <div class="col-md-3">
-                                                        <div class="product-card">
-                                                            <div class="product-card__img img-hover-1">
-                                                                <a href="#">
-                                                                    <img src="assets/images/product(14).jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-card__body card-body--flex">
-                                                                <h3 class="product-name">
-                                                                    <a href="#">Perfume</a>
-                                                                </h3>
-                                                                <div class="product-price">
-                                                                    <span class="amount">$280.00</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="product-card">
-                                                            <div class="product-card__img img-hover-1">
-                                                                <a href="#">
-                                                                    <img src="assets/images/product(26).jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-card__body card-body--flex">
-                                                                <h3 class="product-name">
-                                                                    <a href="#">Gray suit</a>
-                                                                </h3>
-                                                                <div class="product-price">
-                                                                    <span class="amount">$456.00</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="product-card">
-                                                            <div class="product-card__img img-hover-1">
-                                                                <a href="#">
-                                                                    <img src="assets/images/product%20(9).jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-card__body card-body--flex">
-                                                                <h3 class="product-name">
-                                                                    <a href="#">Party dress</a>
-                                                                </h3>
-                                                                <div class="product-price">
-                                                                    <span class="amount">$120.00</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="product-card">
-                                                            <div class="product-card__img img-hover-1">
-                                                                <a href="#">
-                                                                    <img src="assets/images/product%20(12).jpg" alt="">
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-card__body card-body--flex">
-                                                                <h3 class="product-name">
-                                                                    <a href="#">Sandals</a>
-                                                                </h3>
-                                                                <div class="product-price">
-                                                                    <span class="amount">$100.00</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
                             <!-- dropdown with sub dropdown -->
                             <li class="nav-item menu-item dropdown">
                                 <a class="nav-link menu-item_link dropdown-toggle" href="#" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    Blog
+                                    Store
                                 </a>
                                 <div class="dropdown-menu dropdown-list dropdown-list--br dropdown-list--md">
                                     <div class="dropdown_inner">
                                         <ul class="list-no-style">
+                                            <li class="dropdown ">
+                                                <a class="dropdown-item dropdown-toggle" href="#"
+                                                    data-toggle="dropdown">Device
+                                                </a>
+                                            </li>
+                                            <li class="dropdown ">
+                                                <a class="dropdown-item dropdown-toggle" href="#"
+                                                    data-toggle="dropdown">Furniture
+                                                </a>
+                                            </li>
+                                            <li class="dropdown ">
+                                                <a class="dropdown-item dropdown-toggle" href="#"
+                                                    data-toggle="dropdown">Shoes
+                                                </a>
+                                            </li>
+                                            <li class="dropdown ">
+                                                <a class="dropdown-item dropdown-toggle" href="#"
+                                                    data-toggle="dropdown">Bags
+                                                </a>
+                                            </li>
                                             <li class="dropdown sub-menu-dropdown">
                                                 <a class="dropdown-item dropdown-toggle" href="#"
-                                                    data-toggle="dropdown">Blog
+                                                    data-toggle="dropdown">Clothing
                                                 </a>
                                                 <ul
                                                     class="dropdown-menu dropdown-list dropdown-list--br sub-menu-dropdown_right">
-                                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog left
-                                                            sidebar</a></li>
-                                                    <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog
-                                                            right
-                                                            sidebar</a></li>
-                                                    <li><a class="dropdown-item" href="blog-lists.html">Blog list</a>
+                                                    <li><a class="dropdown-item" href="blog-left-sidebar.html">Man</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="blog-grid.html">Blog grid</a>
+                                                    <li><a class="dropdown-item"
+                                                            href="blog-right-sidebar.html">Woman</a></li>
+                                                    <li><a class="dropdown-item" href="blog-lists.html">Kids</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown sub-menu-dropdown">
                                                 <a class="dropdown-item dropdown-toggle" href="#"
-                                                    data-toggle="dropdown">Blog
+                                                    data-toggle="dropdown">Crafts
                                                     post
                                                 </a>
                                                 <ul
                                                     class="dropdown-menu dropdown-list dropdown-list--br sub-menu-dropdown_right">
-                                                    <li><a class="dropdown-item" href="blog-post-left-sidebar.html">Blog
+                                                    <li><a class="dropdown-item"
+                                                            href="blog-post-left-sidebar.html">Crafts
                                                             post
                                                             left sidebar</a></li>
                                                     <li><a class="dropdown-item"
-                                                            href="blog-post-right-sidebar.html">Blog
+                                                            href="blog-post-right-sidebar.html">Crafts
                                                             post
                                                             right sidebar</a></li>
-                                                    <li><a class="dropdown-item" href="blog-post-full.html">Blog post
+                                                    <li><a class="dropdown-item" href="blog-post-full.html">Crafts post
                                                             full</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="blog-post-slider.html">Blog post
+                                                    <li><a class="dropdown-item" href="blog-post-slider.html">Crafts
+                                                            post
                                                             Slider</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="blog-post-video.html">Blog post
+                                                    <li><a class="dropdown-item" href="blog-post-video.html">Crafts post
                                                             Video</a>
                                                     </li>
                                                 </ul>
@@ -685,7 +354,13 @@
                                     </div>
                                 </div>
                             </li>
+                            <!-- dropdown with sub dropdown -->
                             <!-- simple link -->
+                            <li class="nav-item menu-item">
+                                <a class="nav-link menu-item_link" href="blog.html">
+                                    Blog
+                                </a>
+                            </li>
                             <li class="nav-item menu-item">
                                 <a class="nav-link menu-item_link" href="about.html">
                                     About us
@@ -773,34 +448,46 @@
     <!-- end hero header section -->
 
 
+
+
     <!-- main content section -->
     <div class="main-content pt-30">
         <div class="container">
-            <!-- shop by category section -->
-            <div class="item-wrapper">
-                <!-- item wrapper images -->
+            <!-- product banner section -->
+            <div class="banner simple-banner">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="item-wrapper__img img-hover-1">
-                            <img src="assets/images/cat-img-01.jpg" alt="">
+                    <div class="col-lg-4">
+                        <div class="banner-slider slider-boxed banner-slider--mb">
+                            <div class="banner-item img-hover-1">
+                                <a href="#"><img src="assets/images/banner-04.jpg" alt=""></a>
+                            </div>
+                            <div class="banner-item img-hover-1">
+                                <a href="#"><img src="assets/images/banner-05.jpg" alt=""></a>
+                            </div>
+                            <div class="banner-item img-hover-1">
+                                <a href="#"><img src="assets/images/banner-06.jpg" alt=""></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="item-wrapper__img img-hover-1">
-                            <img src="assets/images/cat-img-02.jpg" alt="">
+                    <div class="col-lg-8">
+                        <div class="banner-item banner-item-full-height">
+                            <div class="banner-item-bg" style="background-image: url('assets/images/banner-07.jpg')">
+                            </div>
+                            <div class="banner-img">
+                                <img src="assets/images/banner-07.jpg" alt="">
+                            </div>
+                            <div class="banner-text-wrapper banner-text-wrapper--center">
+                                <h4 class="banner-title"><span class="banner-title--large">New</span><br> Collection
+                                </h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="button button--link">See all products</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- item wrapper content box -->
-                <div class="item-wrapper__content">
-                    <h4 class="item-title">Swimwear Collection</h4>
-                    <div class="item-desc">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa esse itaque.</p>
-                    </div>
-                    <a href="#" class="button button--link">See all products</a>
                 </div>
             </div>
-            <!-- end shop by category section -->
+            <!-- end product banner section -->
 
 
             <!-- best seller products section -->
