@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Opamo || Fashion Shop HTML 5 Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
     CSS INDEX
     ===================
 
@@ -3590,9 +3585,10 @@ select.form-control {
   margin-right: 0.5rem;
 }
 
-.footer .widget_copyright a{
+.footer .widget_copyright a {
   color: #ffffff;
 }
+
 .footer .widget_copyright p {
   font-weight: 300;
   font-size: 14px;
@@ -7884,5 +7880,7 @@ select.form-control {
     transform: translateY(0);
     opacity: 1;
   }
+
+
 
   /*# sourceMappingURL=main.css.map */
