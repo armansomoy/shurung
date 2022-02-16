@@ -714,4 +714,108 @@
     flex: 1 1 auto;
     padding: 1rem;
   }
+
+  .faq-select-form {
+    max-width: 300px;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  select.form-control {
+    padding: 0px 35px 0 16px;
+  }
+
+  .form-control {
+    height: calc(1.5em + 1.25rem + 2px);
+    border-color: #E6E6E6;
+  }
+
+  .faq-wrapper .wrapper-title {
+    font-size: 20px;
+    margin-bottom: 1.875rem;
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card .card-header {
+    padding: 0;
+    color: #161616;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #E6E6E6;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card .card-header {
+    padding: 0;
+    color: #161616;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #E6E6E6;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card .card-header .btn-link {
+    position: relative;
+    padding: 1.5rem 0;
+    display: block;
+    width: 100%;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card .card-header .btn-link:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #161616;
+    display: inline-block;
+    margin-right: 0.75rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card .card-header [data-toggle=collapse].collapsed.btn-link:after {
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #E6E6E6;
+    position: absolute;
+    top: 50%;
+    right: 1.25rem;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .custom-accordion .accordion--minimal .custom-accordion__card {
+    background: none;
+    border: none;
+  }
+
+  .faq-wrapper {
+    margin-bottom: 4rem;
+  }
+
+  .faq-wrapper .wrapper-title {
+    font-size: 20px;
+    margin-bottom: 1.875rem;
+  }
 }
