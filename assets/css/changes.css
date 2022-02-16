@@ -386,4 +386,86 @@
   .list-no-style {
     padding-top: 60px;
   }
+
+  .dashboard__control .control_item {
+    padding: 1rem 1rem;
+    margin: 0.5rem 0;
+    display: block;
+    border-left: 5px solid transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+
+  .dashboard__control .control_item span {
+    padding-right: 0.75rem;
+  }
+
+  .dashboard__control .control_item.active,
+  .dashboard__control .control_item:hover {
+    background-color: #FFF1F1;
+    border-left: 5px solid #FF4343;
+  }
+
+  .dashboard__control .control_item.active>a,
+  .dashboard__control .control_item:hover>a {
+    color: #FF4343;
+  }
+
+  .dashboard__info .panel.panel-box {
+    padding: 1.875rem;
+    -webkit-box-shadow: 3px 3px 6px 0 rgba(22, 22, 22, 0.15);
+    -moz-box-shadow: 3px 3px 6px 0 rgba(22, 22, 22, 0.15);
+    -ms-box-shadow: 3px 3px 6px 0 rgba(22, 22, 22, 0.15);
+    -o-box-shadow: 3px 3px 6px 0 rgba(22, 22, 22, 0.15);
+    box-shadow: 3px 3px 6px 0 rgba(22, 22, 22, 0.15);
+  }
+
+  .dashboard__info .panel .panel-heading {
+    margin-bottom: 1.875rem;
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+  .dashboard__info .panel .panel-heading .panel-title {
+    font-size: 16px;
+    margin-bottom: 0.75rem;
+  }
+
+  .dashboard__info .my-account-body img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+  }
+
+  .dashboard__info .my-account-body .change-btn {
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #202142;
+    background-color: #202142;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0px;
+  }
+
+  .dashboard__info .my-account-body .text-part {
+    padding: 30px;
+  }
+
+  .dashboard__info .my-account-body .text-part .gape {
+    padding: 30px 0px 0px;
+  }
+
+  p {
+    color: #8F8F8F;
+    font-weight: 300;
+  }
 }
