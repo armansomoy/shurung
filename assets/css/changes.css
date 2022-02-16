@@ -304,4 +304,34 @@
     border: 1px solid #E6E6E6;
     margin-bottom: 1.875rem;
   }
+
+  .cart_totals {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+  }
+
+  .cart_totals .expenses {
+    padding-bottom: 1.25rem;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .cart_totals .expenses .price {
+    float: right;
+  }
+
+  .cart_totals .shipping-calculator {
+    border: 1px solid #E6E6E6;
+    padding: 1.25rem;
+  }
+
+  .cart_totals .total-price {
+    padding: 2rem 0;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .cart_totals .total-price .price {
+    float: right;
+  }
 }
