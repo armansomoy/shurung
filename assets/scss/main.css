@@ -6581,6 +6581,10 @@ select.form-control {
     .shop_table.cart_table td {
       padding: 5px 10px;
     }
+    .shop_table.cart_table .product-thumbnail,
+    .shop_table.cart_table .product-subtotal {
+      display: none;
+    }
 
   }
 
@@ -6599,7 +6603,7 @@ select.form-control {
     display: table-cell;
   }
 
-  @media only screen and (max-width: 767px) {
+  @media only (min-width: 367px) and (max-width: 767px) {
 
     .shop_table.cart_table .product-name,
     .shop_table.cart_table .product-price,
