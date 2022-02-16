@@ -677,4 +677,42 @@
     max-width: 100%;
     height: auto;
   }
+
+  .subscribe-modal .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 1;
+    font-size: 20px;
+  }
+
+  .modal-body .subscribe-modal-content {
+    text-align: center;
+    padding: 60px;
+    height: 100%;
+    background-color: #E6E6E6;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .modal-body__left,
+  .modal-body__right {
+    position: relative;
+    padding: 0;
+  }
+
+  .modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
 }
